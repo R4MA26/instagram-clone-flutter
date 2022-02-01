@@ -15,15 +15,15 @@ class TextFiledInput extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final InputBorder =
+    final inputBorder =
         OutlineInputBorder(borderSide: Divider.createBorderSide(context));
     return TextField(
       controller: textEditingController,
       decoration: InputDecoration(
         hintText: hintText,
-        border: InputBorder,
-        focusedBorder: InputBorder,
-        enabledBorder: InputBorder,
+        border: inputBorder,
+        focusedBorder: inputBorder,
+        enabledBorder: inputBorder,
         filled: true,
         contentPadding: const EdgeInsets.all(8),
       ),

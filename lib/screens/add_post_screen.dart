@@ -79,7 +79,7 @@ class _AddPostScreenState extends State<AddPostScreen> {
                   ),
                 ),
               ),
-              Divider(),
+              const Divider(),
             ],
           ),
         ],
